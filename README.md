@@ -17,6 +17,7 @@ Vector of state space type : continuous
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. 
 
 State space :
+__Number of state space : 37__
 ```
 [ 1.          0.          0.          0.          0.84408134  0.          0.    1.          0.          0.0748472   0.          1.          0.          0.]
 ```
