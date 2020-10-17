@@ -36,8 +36,11 @@ __Number of action space : 4__
 ```
 
 Completion of successful agent:
+```
 The task is episodic, and in order to solve the environment, agent must get an average score of +13 over 100 consecutive episodes.
+```
 
-Packages required:
+
+Installation Guides :
 unityagents (refer to :https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
 
