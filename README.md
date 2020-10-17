@@ -20,7 +20,8 @@ Example of state space :
 [ 1.          0.          0.          0.          0.84408134  0.          0.    1.          0.          0.0748472   0.          1.          0.          0.]
 
 *Action space:*
-Number of action space : 4
+__Number of action space : 4__
+
 0 - move forward.
 1 - move backward.
 2 - turn left.
