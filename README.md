@@ -1,5 +1,6 @@
 # Deep Reinforcement Learning on banana collector
 
+## Introduction to banana collector navigation using DQN/Double DQN
 Using Unity ML-Agents. 
 [link to banana collector!](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector)
 
@@ -43,9 +44,8 @@ The task is episodic, and in order to solve the environment, agent must get an a
 ## Content of this repository
 * __report.pdf__: a document that describes the details of the different implementation, along with ideas for future work
 * jupyter notebook __load_run_agent.ipynb__: a notebook that can load and run the saved agents
-* folder __double_dqn__: implementation of double deep q network (succeeded)
-* folder __dueling_double_dqn__: implementation of double deep q network with a dueling network (succeeded)
-* folder __per_dueling_double_dqn__: implementation of an agent with double DQN, dueling Network, and Prioritized Experience Replay all together (pending)
+* folder __DQN_benchmark__: implementation of double deep q network (succeeded)
+
 ## Requirements
 To run the codes, follow the next steps:
 * Create a new environment:
@@ -91,6 +91,6 @@ jupyter notebook
 * Once started, change the kernel through the menu `Kernel`>`Change kernel`>`dqn`
 * If necessary, inside the ipynb files, change the path to the unity environment appropriately
 
-Installation Guides :
+Installation Guides for unity agent:
 unityagents (refer to :https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
 
