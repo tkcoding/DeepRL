@@ -1,7 +1,7 @@
-# Deep Reinforcement Learning on banana picking
+# Deep Reinforcement Learning on banana collector
 
 Using Unity ML-Agents. 
-https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector - automatic!
+[link to banana collector!] (https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector)
 
 For this project, agent will be trained to navigate and collect bananas in a sqare world.
 
