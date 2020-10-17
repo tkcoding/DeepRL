@@ -17,14 +17,9 @@ Vector of state space type : continuous
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. 
 
 Example of state space :
-[ 1.          0.          0.          0.          0.84408134  0.          0.
-  1.          0.          0.0748472   0.          1.          0.          0.
-  0.25755     1.          0.          0.          0.          0.74177343
-  0.          1.          0.          0.          0.25854847  0.          0.
-  1.          0.          0.09355672  0.          1.          0.          0.
-  0.31969345  0.          0.        ]
+[ 1.          0.          0.          0.          0.84408134  0.          0.    1.          0.          0.0748472   0.          1.          0.          0.]
 
-Action space:
+*Action space:*
 Number of action space : 4
 0 - move forward.
 1 - move backward.
