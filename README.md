@@ -44,53 +44,33 @@ The task is episodic, and in order to solve the environment, agent must get an a
 ## Content of this repository
 * __report.pdf__: a document that describes the details of the different implementation, along with ideas for future work
 * jupyter notebook __load_run_agent.ipynb__: a notebook that can load and run the saved agents
-* folder __DQN_benchmark__: implementation of double deep q network (succeeded)
 
 ## Requirements
-To run the codes, follow the next steps:
-* Create a new environment:
-	* __Linux__ or __Mac__: 
-	```bash
-	conda create --name dqn python=3.6
-	source activate dqn
-	```
-	* __Windows__: 
-	```bash
-	conda create --name dqn python=3.6 
-	activate dqn
-	```
-* Perform a minimal install of OpenAI gym
-	* If using __Windows__, 
-		* download swig for windows and add it the PATH of windows
-		* install Microsoft Visual C++ Build Tools
-	* then run these commands
-	```bash
-	pip install gym
-	pip install gym[classic_control]
-	pip install gym[box2d]
-	```
-* Install the dependencies under the folder python/
-```bash
-	cd python
-	pip install .
-```
-* Create an IPython kernel for the `dqn` environment
-```bash
-	python -m ipykernel install --user --name dqn --display-name "dqn"
-```
-* Download the Unity Environment (thanks to Udacity) which matches your operating system
-	* [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-	* [Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-	* [Windows (32-bits)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-	* [Windows (64 bits)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+Create a virtual environment and activate it.
 
-* Start jupyter notebook from the root of this python codes
-```bash
-jupyter notebook
 ```
-* Once started, change the kernel through the menu `Kernel`>`Change kernel`>`dqn`
-* If necessary, inside the ipynb files, change the path to the unity environment appropriately
+python -m venv banana_collector
+source banana_collector/bin/activate
+```
+
+Install Unity ml-agents.
+```
+git clone https://github.com/Unity-Technologies/ml-agents.git
+git -C ml-agents checkout 0.4.0b
+pip install ml-agents/python/.
+```
+
+Install the project requirements.
+
+```
+pip install -r requirements.txt
+```
+__Installation of envirnoment for unity__
 
 Installation Guides for unity agent:
 unityagents (refer to :https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
+
+Installation of required packages:
+pip install -r requirements.txt
+
 
