@@ -21,12 +21,12 @@ Example of state space :
 
 *Action space:*
 __Number of action space : 4__
-
+'''
 0 - move forward.
 1 - move backward.
 2 - turn left.
 3 - turn right
-
+'''
 
 Completion of successful agent:
 The task is episodic, and in order to solve the environment, agent must get an average score of +13 over 100 consecutive episodes.
