@@ -37,6 +37,15 @@ __Number of action space : 4__
 3 - turn right
 ```
 
+
+
+Completion of successful agent:
+```
+The task is episodic, and in order to solve the environment, agent must get an average score of +13 over 100 consecutive episodes.
+```
+
+
+
 ## Algorithm of Double DQN vs DQN 
 
 Deep Q-Network is a popular technique when coming to training agent to play famous games like Atari, however issue such as overestimation is a factor that could degrade the performance of agent using DQN alone.
@@ -50,11 +59,6 @@ Reference : Minh et al. 2015 https://arxiv.org/pdf/1509.06461.pdf
 Figure above show that highlighted green is the higher score of the game. DQN shown to be better in certain cases . In banana collector , benchmark will be conducted by implementing both DQN and DDQN to see the comparison of both algorithm.
 
 
-
-Completion of successful agent:
-```
-The task is episodic, and in order to solve the environment, agent must get an average score of +13 over 100 consecutive episodes.
-```
 
 ## Content of this repository
 * __report.pdf__: a document that describes the details of the different implementation, along with ideas for future work.
