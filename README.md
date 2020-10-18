@@ -44,23 +44,6 @@ Completion of successful agent:
 The task is episodic, and in order to solve the environment, agent must get an average score of +13 over 100 consecutive episodes.
 ```
 
-### Getting Started
-
-1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
-    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
-    
-    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
-
-    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
-
-2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
-
-### Instructions
-
-Follow the instructions in `Banana_Navigator/Navigation.ipynb` to get started with training your own agent!  
 
 ## Algorithm of Double DQN vs DQN 
 
@@ -83,26 +66,31 @@ Figure above show that highlighted green is the higher score of the game. DQN sh
 * __checkpoint_dqn.pth__ : Weight file that has the trained agent using DQN.
 * __requiremets.txt__ : File for dependencies . Can run trhough pip install -r requirements.txt
 
+ 
+
+
 ## Requirements
-Create a virtual environment and activate it.
 
-```
-python -m venv banana_collector
-source banana_collector/bin/activate
-```
+### Getting Started
 
-Install Unity ml-agents.
-```
-git clone https://github.com/Unity-Technologies/ml-agents.git
-git -C ml-agents checkout 0.4.0b
-pip install ml-agents/python/.
-```
+1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+    
+    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
-Install the project requirements.
+    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-```
-pip install -r requirements.txt
-```
+2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+
+### Instructions
+
+Follow the instructions in `Banana_Navigator/Navigation.ipynb` to get started with training your own agent! 
+
+
+### Further Reading on unity environment
 __Installation of envirnoment for unity__
 
 Installation Guides for unity agent:
