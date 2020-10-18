@@ -90,15 +90,6 @@ Figure above show that highlighted green is the higher score of the game. DQN sh
 Follow the instructions in `Banana_Navigator/Navigation.ipynb` to get started with training your own agent! 
 
 
-### Further Reading on unity environment
-__Installation of envirnoment for unity__
-
-Installation Guides for unity agent:
-unityagents (refer to :https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
-
-Installation of required packages:
-pip install -r requirements.txt
-
 
 ## Expected result 
 
