@@ -3,6 +3,7 @@
 ## Introduction to banana collector navigation using DQN/Double DQN
 Using Unity ML-Agents. 
 [link to banana collector!](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector)
+![DQN agent](assets/BananaCollector.png)
 
 For this project, agent will be trained to navigate and collect bananas in a sqare world.
 
