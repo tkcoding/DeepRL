@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning on banana collector
 
-## Introduction to banana collector navigation using DQN/Double DQN
+## Banana collector navigation using DQN/Double DQN
 Using Unity ML-Agents. 
 [link to banana collector!](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector)
 ![DQN agent](assets/BananaCollector.png)
@@ -36,6 +36,20 @@ __Number of action space : 4__
 2 - turn left.
 3 - turn right
 ```
+
+## Algorithm of DDQN 
+
+Deep Q-Network is a popular technique when coming to training agent to play famous games like Atari, however issue such as overestimation is a factor that could degrade the performance of agent using DQN alone.
+
+Double DQN is able to reduce overestimation problem (overoptimism) in DQN using technique of target network as reference.
+
+Reference : Minh et al. 2015 https://arxiv.org/pdf/1509.06461.pdf 
+
+![DQN agent](assets/Benchmark_game_DDQN.png)
+
+Figure above show that highlighted green is the higher score of the game. DQN shown to be better in certain cases . In banana collector , benchmark will be conduct by implementing both DQN and DDQN to see the comparison of both algorithm.
+
+
 
 Completion of successful agent:
 ```
