@@ -42,8 +42,11 @@ The task is episodic, and in order to solve the environment, agent must get an a
 ```
 
 ## Content of this repository
-* __report.pdf__: a document that describes the details of the different implementation, along with ideas for future work
-* jupyter notebook __load_run_agent.ipynb__: a notebook that can load and run the saved agents
+* __report.pdf__: a document that describes the details of the different implementation, along with ideas for future work.
+* jupyter notebook __Banana_Navigator/Navigation.ipynb__: Notebook to run agent learning at DQN and DDQN with the switch at agent class DDQN=False (DQN) and DDQN=True (DDQN).
+* __checkpoint_ddqn.pth__ : Weight file that has the trained agent using DDQN.
+* __checkpoint_dqn.pth__ : Weight file that has the trained agent using DQN.
+* __requiremets.txt__ : File for dependencies . Can run trhough pip install -r requirements.txt
 
 ## Requirements
 Create a virtual environment and activate it.
