@@ -78,7 +78,7 @@ Installation of required packages:
 pip install -r requirements.txt
 
 
-__Expected result :__
+## Expected result 
 
 ```Deep Q-network rolling standard deviation and rolling mean reward graph```
 
@@ -88,3 +88,8 @@ __Expected result :__
 ```Double Deep Q-network rolling standard deviation and rolling mean reward graph```
 
 ![DDQN reward](assets/DDQN_reward.png)
+
+
+```DQN vs DDQN stability in rewards over 1500 episodes```
+
+![stability reward](assets/DQN_DDQN_stability.png)
