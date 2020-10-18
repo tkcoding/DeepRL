@@ -3,6 +3,7 @@
 ## Introduction to banana collector navigation using DQN/Double DQN
 Using Unity ML-Agents. 
 [link to banana collector!](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector)
+![DQN agent](assets/BananaCollector.png)
 
 For this project, agent will be trained to navigate and collect bananas in a sqare world.
 
@@ -77,3 +78,18 @@ Installation of required packages:
 pip install -r requirements.txt
 
 
+## Expected result 
+
+```Deep Q-network rolling standard deviation and rolling mean reward graph```
+
+![DQN reward](assets/DQN_reward.png)
+
+
+```Double Deep Q-network rolling standard deviation and rolling mean reward graph```
+
+![DDQN reward](assets/DDQN_reward.png)
+
+
+```DQN vs DDQN stability in rewards over 1500 episodes```
+
+![stability reward](assets/DQN_DDQN_stability.png)
