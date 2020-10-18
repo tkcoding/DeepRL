@@ -37,7 +37,7 @@ __Number of action space : 4__
 3 - turn right
 ```
 
-## Algorithm of DDQN 
+## Algorithm of Double DQN vs DQN 
 
 Deep Q-Network is a popular technique when coming to training agent to play famous games like Atari, however issue such as overestimation is a factor that could degrade the performance of agent using DQN alone.
 
@@ -47,7 +47,7 @@ Reference : Minh et al. 2015 https://arxiv.org/pdf/1509.06461.pdf
 
 ![DQN agent](assets/Benchmark_game_DDQN.png)
 
-Figure above show that highlighted green is the higher score of the game. DQN shown to be better in certain cases . In banana collector , benchmark will be conduct by implementing both DQN and DDQN to see the comparison of both algorithm.
+Figure above show that highlighted green is the higher score of the game. DQN shown to be better in certain cases . In banana collector , benchmark will be conducted by implementing both DQN and DDQN to see the comparison of both algorithm.
 
 
 
